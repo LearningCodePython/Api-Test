@@ -1,4 +1,5 @@
 # Repositorio en GitHub
+* Este repositorio lo empiezo desde home_acer.
 
 Programa que intenta dar solución a la necesidad de poder interactuar con las centrales Yeastar, a traves de la función API que tiene la central.
 
