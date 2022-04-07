@@ -1,5 +1,5 @@
 # Repositorio en GitHub
-* Este repositorio lo empiezo desde home_acer.
+* Este repositorio lo empiezo desde home_acer. 
 
 Programa que intenta dar solución a la necesidad de poder interactuar con las centrales Yeastar, a traves de la función API que tiene la central.
 
@@ -47,6 +47,8 @@ Es el aplicación servido web en la que se crean las decoradores de plantillas h
         return token
 
 # Crear alarmas.
+
+Primero tengo que crear un formalario para recoger los datos que debo almacenar en _extid, _time, _type_repeats y  _interval.
 
 Esta parte del app.py deberia debe ser modificada, ya que desde el index.html llamaremos a un formulario llamado alarmas.html que almacenará los datos que necesitemos modificar.
 
