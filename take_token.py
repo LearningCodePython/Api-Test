@@ -15,12 +15,13 @@ urllib3.disable_warnings()
 
 def _getoken_ (): # Función que captura el token para almacenarlo en la variable toke.
   url = "https://" + data.host + ":8088/api/v1.1.0/login"
-  payload="{ \"username\":" + data.api_user + ",\"password\":" + data.api_pass+ ",\"port\": \"8260\"}"
+  payload="{ \"username\":" + data.api_user + ",\"password\":" + data.api_pass + ",\"port\": \"8260\" }"
   headers = {
     'Content-Type': 'text/plain'
   }
   r = requests.post(url, headers=headers, data=payload, verify=False)
   jsonResponse = r.json()
-  token = (jsonResponse["token"]) #Selecciona al valor de la clave "token"
+  token = (jsonResponse["token"]) #Selecciona al valor de la clave "token"cd 
   return token
-
+llave = _getoken_()
+print (llave)
