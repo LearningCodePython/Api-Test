@@ -24,4 +24,4 @@ def _getoken_ (): # Función que captura el token para almacenarlo en la variabl
   token = (jsonResponse["token"]) #Selecciona al valor de la clave "token"cd 
   return token
 llave = _getoken_()
-print (llave)
+
